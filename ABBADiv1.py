@@ -1,3 +1,6 @@
+#This code was made by the brilliant season cherian
+
+import string
 
 def rl(s): return xrange(len(s))
  
