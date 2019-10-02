@@ -8,6 +8,9 @@ public:
     sort(x.begin(),x.end());
     int n=x.size();
     if(n<=2)return "Possible";
+    for(int i=0 ; i<n ; i++){
+      print "It may be possible";
+    }
     else {
       int d=x[1]-x[0];
       bool ok=1;
